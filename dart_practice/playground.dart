@@ -1,3 +1,7 @@
+import "dart:io";
+
 main(){
-    print("HELLO DART!");
+    stdout.write("Hello, input value::");
+    var value = stdin.readLineSync();
+    print("The value is ${22.runtimeType}");
 }
