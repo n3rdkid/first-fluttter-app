@@ -78,3 +78,15 @@ List<int> testValue = const [1,2,3]
 * Set -> <>{}
 
 Using just {} => HashMap, but <>{} is HashSet
+
+## Functions
+### Anonymous Function
+Similar to Python Lambda's or JavaScript Arrow functions 
+
+### Arguments to function
+Similar to Python/ JavaScript
+1. Positional argument (Basic on position/ the order of occurrence) 
+- We can make positional parameter optional by using [] 
+
+2. Named argument (Order of argument doesn't matter since every argument is mapped to a key)
+- Named parameters may be optional so use a conditional null aware operator or give a default value like in JS
