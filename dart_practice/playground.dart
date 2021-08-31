@@ -1,7 +1,11 @@
-import "dart:io";
 
 main(){
-    stdout.write("Hello, input value::");
-    var value = stdin.readLineSync();
-    print("The value is ${22.runtimeType}");
+  var list = [1,2,3];
+  var set= {}; // THIS IS A MAP
+  var set1 = <int>{};
+  // print(set.runtimeType);
+  // print(set1.runtimeType);
+  var test=Map();
+  print(test.runtimeType);
+
 }
